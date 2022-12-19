@@ -1,0 +1,71 @@
+{
+  "Gossip": [
+    {
+      "Value": "Int",
+      "Target": "IntArray",
+      "Type": {
+        "$type": "Enum",
+        "possibleValues": [
+          "major_negative",
+          "minor_negative",
+          "major_positive",
+          "minor_positive",
+          "trading"
+        ]
+      }
+    }
+  ],
+  "Recipes": [
+    {
+      "buy": "$include shared/item",
+      "buyB": {
+        "$type": "Optional",
+        "optional": "$include shared/item"
+      },
+      "demand": "Int",
+      "maxUses": "Int",
+      "priceMultiplier": "Float",
+      "rewardExp": "Byte",
+      "sell": "$include shared/item",
+      "specialPrice": "Int",
+      "uses": "Int",
+      "xp": "Int"
+    }
+  ],
+  "VillagerData": {
+    "level": "Int",
+    "profession": {
+      "$type": "Enum",
+      "possibleValues": [
+        "minecraft:armorer",
+        "minecraft:butcher",
+        "minecraft:cartographer",
+        "minecraft:cleric",
+        "minecraft:farmer",
+        "minecraft:fisherman",
+        "minecraft:fletcher",
+        "minecraft:leatherworker",
+        "minecraft:librarian",
+        "minecraft:nitwit",
+        "minecraft:none",
+        "minecraft:mason",
+        "minecraft:shepherd",
+        "minecraft:toolsmith",
+        "minecraft:weaponsmith"
+      ]
+    },
+    "type": {
+      "$type": "Enum",
+      "possibleValues": [
+        "minecraft:desert",
+        "minecraft:jungle",
+        "minecraft:plains",
+        "minecraft:savanna",
+        "minecraft:snow",
+        "minecraft:swamp",
+        "minecraft:taiga"
+      ]
+    }
+  },
+  "Xp": "Int"
+}

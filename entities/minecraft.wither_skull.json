@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:wither_skull",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/fireball",
+      "$include shared/projectile"
+    ]
+  }
+}

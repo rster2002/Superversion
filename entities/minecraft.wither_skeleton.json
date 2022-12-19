@@ -1,0 +1,9 @@
+{
+  "name": "minecraft:wither_skeleton",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ]
+  }
+}

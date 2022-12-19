@@ -1,0 +1,9 @@
+{
+  "name": "minecraft:silverfish",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ]
+  }
+}

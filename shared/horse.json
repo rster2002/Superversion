@@ -1,0 +1,14 @@
+{
+  "Bred": "Byte",
+  "EatingHaystack": "Byte",
+  "Owner": {
+    "$type": "Optional",
+    "optional": "IntArray"
+  },
+  "SaddleItem": {
+    "$type": "Optional",
+    "optional": "$include shared/item"
+  },
+  "Tame": "Byte",
+  "Temper": "Int"
+}

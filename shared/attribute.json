@@ -1,0 +1,14 @@
+{
+  "Base": "Double",
+  "Modifiers": {
+    "$type": "List",
+    "length": "variable",
+    "itemType": {
+      "Amount": "Double",
+      "Name": "String",
+      "Operation": "Int",
+      "UUID": "IntArray"
+    }
+  },
+  "Name": "String"
+}

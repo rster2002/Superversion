@@ -1,0 +1,6 @@
+{
+  "Age": "Int",
+  "ForcedAge": "Int",
+  "InLove": "Int",
+  "LoveCause": "IntArray"
+}

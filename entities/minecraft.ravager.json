@@ -1,0 +1,13 @@
+{
+  "name": "minecraft:ravager",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob",
+      "$include shared/raid_mob"
+    ],
+    "AttackTick": "Int",
+    "RoarTick": "Int",
+    "StunTick": "Int"
+  }
+}

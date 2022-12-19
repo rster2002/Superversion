@@ -1,0 +1,14 @@
+{
+  "name": "minecraft:dolphin",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "CanFindTreasure": "Byte",
+    "GotFish": "Byte",
+    "TreasurePosX": "Byte",
+    "TreasurePosY": "Byte",
+    "TreasurePosZ": "Byte"
+  }
+}

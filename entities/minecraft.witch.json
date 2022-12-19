@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:witch",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob",
+      "$include shared/raid_mob"
+    ]
+  }
+}

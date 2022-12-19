@@ -1,0 +1,96 @@
+{
+  "AbsorptionAmount": "Float",
+  "ActiveEffects": {
+    "$type": "List",
+    "length": "variable",
+    "itemType": "$include shared/active_effect"
+  },
+  "ArmorDropChances": {
+    "$type": "List",
+    "length": "fixed",
+    "items": [
+      "Float",
+      "Float",
+      "Float",
+      "Float"
+    ]
+  },
+  "ArmorItems": {
+    "$type": "List",
+    "length": "fixed",
+    "items": [
+      "$include shared/item",
+      "$include shared/item",
+      "$include shared/item",
+      "$include shared/item"
+    ]
+  },
+  "Attributes": {
+    "$type": "List",
+    "length": "variable",
+    "itemType": "$include shared/attribute"
+  },
+  "Brain": "Any",
+  "CanPickUpLoot": "Byte",
+  "DeathLootTable": {
+    "$type": "Optional",
+    "optional": "String"
+  },
+  "DeathLootTableSeed": {
+    "$type": "Optional",
+    "optional": "Long"
+  },
+  "DeathTime": "Short",
+  "FallFlying": "Byte",
+  "Health": "Float",
+  "HurtByTimestamp": "Int",
+  "HurtTime": "Short",
+  "HandDropChances": {
+    "$type": "List",
+    "length": "fixed",
+    "items": [
+      "Float",
+      "Float"
+    ]
+  },
+  "HandItems": {
+    "$type": "List",
+    "length": "fixed",
+    "items": [
+      "$include shared/item",
+      "$include shared/item"
+    ]
+  },
+  "Leash": {
+    "$type": "CompoundOR",
+    "possibleShapes": [
+      {
+        "UUID": "IntArray"
+      },
+      {
+        "X": "Int",
+        "Y": "Int",
+        "Z": "Int"
+      }
+    ]
+  },
+  "LeftHanded": "Byte",
+  "NoAI": "Byte",
+  "PersistenceRequired": "Byte",
+  "SleepingX": {
+    "$type": "Optional",
+    "optional": "Int"
+  },
+  "SleepingY": {
+    "$type": "Optional",
+    "optional": "Int"
+  },
+  "SleepingZ": {
+    "$type": "Optional",
+    "optional": "Int"
+  },
+  "Team": {
+    "$type": "AtSpawn",
+    "valueType": "String"
+  }
+}

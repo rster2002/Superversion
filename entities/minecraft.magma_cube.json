@@ -1,0 +1,11 @@
+{
+  "name": "minecraft:magma_cube",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "Size": "Int",
+    "wasOnGround": "Byte"
+  }
+}

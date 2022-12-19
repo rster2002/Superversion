@@ -1,0 +1,11 @@
+{
+  "name": "minecraft:piglin_brute",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "IsImmuneToZombification": "Byte",
+    "TimeInOverworld": "Byte"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "minecraft:fox",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "Crouching": "Byte",
+    "Sitting": "Byte",
+    "Sleeping": "Byte",
+    "Trusted": [
+      "IntArray"
+    ],
+    "Type": {
+      "$type": "Enum",
+      "possibleValues": [
+        "red",
+        "snow"
+      ]
+    }
+  }
+}

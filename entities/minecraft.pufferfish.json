@@ -1,0 +1,11 @@
+{
+  "name": "minecraft:pufferfish",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "FromBucket": "Byte",
+    "PuffState": "Int"
+  }
+}

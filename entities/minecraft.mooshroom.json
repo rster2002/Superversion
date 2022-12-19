@@ -1,0 +1,25 @@
+{
+  "name": "minecraft:mooshroom",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "EffectDuration": {
+      "$type": "Optional",
+      "optional": "Int"
+    },
+    "EffectId": {
+      "$type": "Optional",
+      "optional": "Byte"
+    },
+    "Type": {
+      "$type": "Enum",
+      "possibleValues": [
+        "red",
+        "brown"
+      ]
+    }
+  }
+}

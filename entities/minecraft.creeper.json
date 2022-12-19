@@ -1,0 +1,13 @@
+{
+  "name": "minecraft:creeper",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "ExplosionRadius": "Byte",
+    "Fuse": "Short",
+    "ignited": "Byte",
+    "powered": "Byte"
+  }
+}

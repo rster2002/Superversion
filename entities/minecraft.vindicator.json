@@ -1,0 +1,14 @@
+{
+  "name": "minecraft:vindicator",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob",
+      "$include shared/raid_mob"
+    ],
+    "Johnny": {
+      "$type": "Optional",
+      "optional": "Byte"
+    }
+  }
+}

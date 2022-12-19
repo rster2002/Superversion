@@ -1,0 +1,6 @@
+{
+  "CanBreakDoors": "Byte",
+  "DrownedConversionTime": "Int",
+  "InWaterTime": "Int",
+  "IsBaby": "Byte"
+}

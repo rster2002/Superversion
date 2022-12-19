@@ -1,0 +1,68 @@
+{
+  "name": "minecraft:allay",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "CanDuplicate": "Byte",
+    "DuplicationCooldown": "Long",
+    "Inventory": {
+      "$type": "List",
+      "length": "fixed",
+      "items": [
+        "$include shared/item"
+      ]
+    },
+    "listener": {
+      "distance": "Int",
+      "event": {
+        "$type": "Optional",
+        "optional": {
+          "distance": "Int",
+          "game_event": "String",
+          "pos": [
+            "Double",
+            "Double",
+            "Double"
+          ],
+          "projectile_owner": {
+            "$type": "Optional",
+            "optional": "IntArray"
+          },
+          "source": {
+            "$type": "Optional",
+            "optional": "IntArray"
+          }
+        }
+      },
+      "event_delay": "Int",
+      "event_distance": "Int",
+      "range": "Int",
+      "source": {
+        "type": {
+          "$type": "Enum",
+          "possibleValues": [
+            "block",
+            "entity"
+          ]
+        },
+        "pos": {
+          "$type": "Optional",
+          "optional": [
+            "Double",
+            "Double",
+            "Double"
+          ]
+        },
+        "entity": {
+          "$type": "Optional",
+          "optional": {
+            "source_entity": "IntArray",
+            "y_offset": "Float"
+          }
+        }
+      }
+    }
+  }
+}

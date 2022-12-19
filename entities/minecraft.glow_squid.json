@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:glow_squid",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "DarkTicksRemaining": "Int"
+  }
+}

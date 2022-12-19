@@ -1,0 +1,13 @@
+{
+  "name": "minecraft:zombie_villager",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob",
+      "$include shared/villager",
+      "$include shared/zombie"
+    ],
+    "ConversionTime": "Int",
+    "ConversionPlayer": "IntArray"
+  }
+}

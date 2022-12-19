@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:zoglin",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "IsBaby": "Byte"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "minecraft:bee",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_anger",
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "CannotEnterHiveTicks": "Int",
+    "CropsGrownSincePollination": "Int",
+    "FlowerPos": {
+      "X": "Int",
+      "Y": "Int",
+      "Z": "Int"
+    },
+    "HasNectar": "Byte",
+    "HasStung": "Byte",
+    "HivePos": {
+      "X": "Int",
+      "Y": "Int",
+      "Z": "Int"
+    },
+    "TicksSincePollination": "Int"
+  }
+}

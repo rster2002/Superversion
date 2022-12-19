@@ -1,0 +1,11 @@
+{
+  "name": "minecraft:iron_golem",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_anger",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "PlayerCreated": "Byte"
+  }
+}

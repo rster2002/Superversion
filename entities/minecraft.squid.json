@@ -1,0 +1,9 @@
+{
+  "name": "minecraft:squid",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ]
+  }
+}

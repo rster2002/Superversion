@@ -1,0 +1,22 @@
+{
+  "name": "minecraft:enderman",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_anger",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "carriedBlockState": {
+      "$type": "Optional",
+      "optional": {
+        "Name": "String",
+        "Properties": {
+          "$type": "Optional",
+          "optional": {
+            "Name": "String"
+          }
+        }
+      }
+    }
+  }
+}

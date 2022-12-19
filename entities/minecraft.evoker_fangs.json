@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:evoker_fangs",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity"
+    ],
+    "Owner": "IntArray",
+    "Warmup": "Int"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "minecraft:parrot",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_tame",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "Variant": "Int"
+  }
+}

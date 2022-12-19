@@ -1,0 +1,13 @@
+{
+  "name": "minecraft:phantom",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "AX": "Int",
+    "AY": "Int",
+    "AZ": "Int",
+    "Size": "Int"
+  }
+}

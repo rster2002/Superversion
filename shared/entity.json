@@ -1,0 +1,41 @@
+{
+  "Air": "Short",
+  "CustomName": "String",
+  "CustomNameVisible": "Byte",
+  "FallDistance": "Float",
+  "Fire": "Short",
+  "Glowing": "Byte",
+  "HasVisualFire": "Byte",
+  "Id": "String",
+  "Invulnerable": "Byte",
+  "Motion": {
+    "$type": "List",
+    "length": "fixed",
+    "items": ["Double", "Double", "Double"]
+  },
+  "NoGravity": "Byte",
+  "OnGround": "Byte",
+  "Passengers": {
+    "$type": "List",
+    "length": "variable",
+    "itemType": "$include shared/entity"
+  },
+  "PortalCooldown": "Int",
+  "Pos": {
+    "$type": "List",
+    "length": "fixed",
+    "items": ["Double", "Double", "Double"]
+  },
+  "Rotation": {
+    "$type": "List",
+    "length": "fixed",
+    "items": ["Float", "Float"]
+  },
+  "Silent": "Byte",
+  "Tags": {
+    "$type": "List",
+    "length": "variable",
+    "itemType": "String"
+  },
+  "UUID": "IntArray"
+}

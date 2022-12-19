@@ -1,0 +1,11 @@
+{
+  "name": "minecraft:slime",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "Size": "Int",
+    "wasOnGround": "Byte"
+  }
+}

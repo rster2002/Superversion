@@ -1,0 +1,13 @@
+{
+  "name": "minecraft:vex",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "BoundX": "Int",
+    "BoundY": "Int",
+    "BoundZ": "Int",
+    "LifeTicks": "Int"
+  }
+}

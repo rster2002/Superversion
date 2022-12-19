@@ -1,0 +1,34 @@
+{
+  "name": "minecraft:panda",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "HiddenGene": {
+      "$type": "Enum",
+      "possibleValues": [
+        "normal",
+        "lazy",
+        "worried",
+        "playful",
+        "brown",
+        "weak",
+        "aggressive"
+      ]
+    },
+    "MainGene": {
+      "$type": "Enum",
+      "possibleValues": [
+        "normal",
+        "lazy",
+        "worried",
+        "playful",
+        "brown",
+        "weak",
+        "aggressive"
+      ]
+    }
+  }
+}

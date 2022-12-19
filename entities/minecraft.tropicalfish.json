@@ -1,0 +1,11 @@
+{
+  "name": "minecraft:tropicalfish",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "FromBucket": "Byte",
+    "Variant": "Int"
+  }
+}

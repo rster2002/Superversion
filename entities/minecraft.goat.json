@@ -1,0 +1,13 @@
+{
+  "name": "minecraft:goat",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "HasLeftHorn": "Byte",
+    "HasRightHorn": "Byte",
+    "IsScreamingGoat": "Byte"
+  }
+}

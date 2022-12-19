@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:chest_boat",
+  "nbt": {
+    "$merge": [
+      "$include shared/boat",
+      "$include shared/container",
+      "$include shared/entity"
+    ]
+  }
+}

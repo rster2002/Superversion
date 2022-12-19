@@ -1,0 +1,11 @@
+{
+  "name": "minecraft:zombie_pigman",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_anger",
+      "$include shared/entity",
+      "$include shared/mob",
+      "$include shared/zombie"
+    ]
+  }
+}

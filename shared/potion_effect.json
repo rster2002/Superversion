@@ -1,0 +1,14 @@
+{
+  "CustomPotionEffect": [
+    {
+      "Id": "Int",
+      "Amplifier": "Byte",
+      "Duration": "Int",
+      "Ambient": "Byte",
+      "ShowParticles": "Byte",
+      "ShowIcon": "Byte"
+    }
+  ],
+  "Potion": "String",
+  "CustomPotionColor": "Int"
+}

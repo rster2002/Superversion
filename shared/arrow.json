@@ -1,0 +1,23 @@
+{
+  "crit": "Byte",
+  "damage": "Double",
+  "inBlockState": {
+    "$type": "Optional",
+    "optional": {
+      "Name": "String",
+      "Properties": {
+        "$type": "Optional",
+        "optional": {
+          "Name": "String"
+        }
+      }
+    }
+  },
+  "inGround": "Byte",
+  "life": "Short",
+  "pickup": "Byte",
+  "PierceLevel": "Byte",
+  "shape": "Byte",
+  "ShotFromCrossbow": "Byte",
+  "SoundEffect": "String"
+}

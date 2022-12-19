@@ -1,0 +1,13 @@
+{
+  "Items": [
+    "$include shared/item"
+  ],
+  "LootTable": {
+    "$type": "Optional",
+    "optional": "String"
+  },
+  "LootTableSeed": {
+    "$type": "Optional",
+    "optional": "Long"
+  }
+}

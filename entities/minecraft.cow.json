@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:cow",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob",
+      "$include shared/can_breed"
+    ]
+  }
+}

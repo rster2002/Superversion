@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:endermite",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "LimeTime": "Int"
+  }
+}

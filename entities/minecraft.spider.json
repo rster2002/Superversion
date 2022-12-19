@@ -1,0 +1,9 @@
+{
+  "name": "minecraft:spider",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ]
+  }
+}

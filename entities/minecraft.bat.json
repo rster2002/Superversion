@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:bat",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "BatFlags": "Byte"
+  }
+}

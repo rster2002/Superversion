@@ -1,0 +1,9 @@
+{
+  "name": "minecraft:llama_spit",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/projectile"
+    ]
+  }
+}

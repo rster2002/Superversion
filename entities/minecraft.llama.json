@@ -1,0 +1,32 @@
+{
+  "name": "minecraft:llama",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "Bred": "Byte",
+    "ChestedHorse": "Byte",
+    "DecorItem": "$include shared/item",
+    "DespawnDelay": {
+      "$type": "Optional",
+      "optional": "Int"
+    },
+    "EatingHaystack": "Byte",
+    "Items": {
+      "$type": "Optional",
+      "optional": [
+        "$include shared/item"
+      ]
+    },
+    "Owner": {
+      "$type": "Optional",
+      "optional": "IntArray"
+    },
+    "Variant": "Int",
+    "Strength": "Int",
+    "Tame": "Byte",
+    "Temper": "Int"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Type": {
+    "$type": "Enum",
+    "possibleValues": [
+      "oak",
+      "spruce",
+      "birch",
+      "jungle",
+      "acacia",
+      "dark_oak",
+      "mangrove",
+      "bamboo"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "CanJoinRaid": "Byte",
+  "PatrolLeader": "Byte",
+  "Patrolling": "Byte",
+  "PatrolTarget": {
+    "X": "Int",
+    "Y": "Int",
+    "Z": "Int"
+  },
+  "RaidId": "Int",
+  "Wave": "Int"
+}

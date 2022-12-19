@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:snow_golem",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "Pumpkin": "Byte"
+  }
+}

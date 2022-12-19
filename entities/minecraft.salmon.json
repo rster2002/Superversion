@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:salmon",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "FromBucket": "Byte"
+  }
+}

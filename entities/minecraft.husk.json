@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:husk",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob",
+      "$include shared/zombie"
+    ]
+  }
+}

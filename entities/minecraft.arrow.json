@@ -1,0 +1,12 @@
+{
+  "name": "minecraft:arrow",
+  "nbt": {
+    "$merge": [
+      "$include shared/arrow",
+      "$include shared/entity",
+      "$include shared/projectile",
+      "$include shared/potion_effect"
+    ],
+    "Color": "Int"
+  }
+}

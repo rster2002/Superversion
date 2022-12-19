@@ -1,0 +1,18 @@
+{
+  "name": "minecraft:shared",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "variant": {
+      "$type": "Enum",
+      "possibleValues": [
+        "minecraft:temperate",
+        "minecraft:warm",
+        "minecraft:cold"
+      ]
+    }
+  }
+}

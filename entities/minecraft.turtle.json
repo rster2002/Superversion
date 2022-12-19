@@ -1,0 +1,16 @@
+{
+  "name": "minecraft:turtle",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "HomePosX": "Int",
+    "HomePosY": "Int",
+    "HomePosZ": "Int",
+    "TravelPosX": "Int",
+    "TravelPosY": "Int",
+    "TravelPosZ": "Int"
+  }
+}

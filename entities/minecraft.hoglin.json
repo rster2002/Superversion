@@ -1,0 +1,12 @@
+{
+  "name": "minecraft:hoglin",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "CannotBeHurt": "Byte",
+    "IsImmuneToZombification": "Byte",
+    "TimeInOverworld": "Int"
+  }
+}

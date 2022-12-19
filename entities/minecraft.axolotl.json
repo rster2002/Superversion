@@ -1,0 +1,21 @@
+{
+  "name": "minecraft:axolotl",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "FromBucket": "Byte",
+    "Variant": {
+      "$type": "Enum",
+      "possibleValues": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "minecraft:wandering_trader",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "DespawnDelay": "Int",
+    "Offers": [
+      {
+        "buy": "$include shared/item",
+        "buyB": {
+          "$type": "Optional",
+          "optional": "$include shared/item"
+        },
+        "maxUses": "Int",
+        "rewardExp": "Byte",
+        "sell": "$include shared/item",
+        "uses": "Int"
+      }
+    ],
+    "WanderTarget": {
+      "X": "Int",
+      "Y": "Int",
+      "Z": "Int"
+    },
+    "Inventory": [
+      "$include shared/item"
+    ]
+  }
+}

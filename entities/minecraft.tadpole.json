@@ -1,0 +1,11 @@
+{
+  "name": "minecraft:tadpole",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "Age": "Int",
+    "FromBucket": "Byte"
+  }
+}

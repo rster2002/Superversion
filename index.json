@@ -1,0 +1,8 @@
+{
+  "edition": "Vanilla",
+  "version_name": "1.19",
+  "sem_version": "1.19.0",
+  "revision": 1,
+  "pack_format": 10,
+  "required_cli_version": 1
+}

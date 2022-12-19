@@ -1,0 +1,13 @@
+{
+  "name": "minecraft:pillager",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob",
+      "$include shared/raid_mob"
+    ],
+    "Inventory": [
+      "$include shared/item"
+    ]
+  }
+}

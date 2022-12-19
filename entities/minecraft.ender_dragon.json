@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:ender_dragon",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "DragonPhase": "Int"
+  }
+}

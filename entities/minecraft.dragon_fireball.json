@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:dragon_fireball",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/fireball",
+      "$include shared/projectile"
+    ]
+  }
+}

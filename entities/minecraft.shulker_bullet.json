@@ -1,0 +1,14 @@
+{
+  "name": "minecraft:elder_guardian",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/projectile"
+    ],
+    "Steps": "Byte",
+    "Target": "IntArray",
+    "TXD": "Int",
+    "TYD": "Int",
+    "TZD": "Int"
+  }
+}

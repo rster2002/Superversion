@@ -1,0 +1,8 @@
+{
+  "HasBeenShot": "Byte",
+  "LeftOwner": "Byte",
+  "Owner": {
+    "$type": "Optional",
+    "optional": "IntArray"
+  }
+}

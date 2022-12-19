@@ -1,0 +1,15 @@
+{
+  "name": "minecraft:donkey",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob",
+      "$include shared/horse"
+    ],
+    "ChestedHorse": "Byte",
+    "Items": [
+      "$include shared/item"
+    ]
+  }
+}

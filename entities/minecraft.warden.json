@@ -1,0 +1,15 @@
+{
+  "name": "minecraft:warden",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "suspects": [
+      {
+        "anger": "Int",
+        "uuid": "IntArray"
+      }
+    ]
+  }
+}

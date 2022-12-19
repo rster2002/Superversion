@@ -1,0 +1,9 @@
+{
+  "name": "minecraft:boat",
+  "nbt": {
+    "$merge": [
+      "$include shared/boat",
+      "$include shared/entity"
+    ]
+  }
+}

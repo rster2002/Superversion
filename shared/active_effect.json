@@ -1,0 +1,8 @@
+{
+  "Ambient": "Byte",
+  "Amplifier": "Byte",
+  "Duration": "Int",
+  "Id": "Int",
+  "ShowIcon": "Byte",
+  "ShowParticles": "Byte"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "minecraft:stray",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ]
+  }
+}

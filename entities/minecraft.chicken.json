@@ -1,0 +1,12 @@
+{
+  "name": "minecraft:chicken",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "EggLayTime": "Int",
+    "IsChickenJockey": "Byte"
+  }
+}

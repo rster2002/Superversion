@@ -1,0 +1,9 @@
+{
+  "name": "minecraft:guardian",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "minecraft:armor_stand",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      {
+        "$type": "CompoundModify",
+        "target": "$include shared/mob",
+        "remove": [
+          "LeftHanded",
+          "DeathLootTable",
+          "DeathLootTableSeed",
+          "NoAI",
+          "Leash",
+          "CanPickUpLoot",
+          "PersistenceRequired"
+        ]
+      }
+    ],
+    "DisabledSlots": "Int",
+    "Invisible": "Byte",
+    "Marker": "Byte",
+    "NoBasePlate": "Byte",
+    "Pose": {
+      "Body": ["Float", "Float", "Float"],
+      "Head": ["Float", "Float", "Float"],
+      "LeftArm": ["Float", "Float", "Float"],
+      "RightArm": ["Float", "Float", "Float"],
+      "LeftLeg": ["Float", "Float", "Float"],
+      "RightLeg": ["Float", "Float", "Float"]
+    },
+    "ShowArms": "Byte",
+    "Small": "Byte"
+  }
+}

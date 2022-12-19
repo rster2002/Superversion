@@ -1,0 +1,11 @@
+{
+  "name": "minecraft:strider",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "Saddle": "Byte"
+  }
+}

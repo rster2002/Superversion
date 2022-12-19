@@ -1,0 +1,10 @@
+{
+  "name": "minecraft:ghast",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "ExplosionPower": "Byte"
+  }
+}

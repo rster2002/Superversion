@@ -1,0 +1,13 @@
+{
+  "name": "minecraft:skeleton_horse",
+  "nbt": {
+    "$merge": [
+      "$include shared/can_breed",
+      "$include shared/entity",
+      "$include shared/mob",
+      "$include shared/horse"
+    ],
+    "SkeletonTrap": "Byte",
+    "SkeletonTrapTime": "Int"
+  }
+}

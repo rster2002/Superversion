@@ -1,0 +1,16 @@
+{
+  "name": "minecraft:piglin",
+  "nbt": {
+    "$merge": [
+      "$include shared/entity",
+      "$include shared/mob"
+    ],
+    "CannotHunt": "Byte",
+    "Inventory": [
+      "$include shared/item"
+    ],
+    "IsBaby": "Byte",
+    "IsImmuneToZombification": "Byte",
+    "TimeInOverworld": "Int"
+  }
+}

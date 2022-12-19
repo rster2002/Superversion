@@ -1,0 +1,7 @@
+{
+  "Owner": {
+    "$type": "Optional",
+    "optional": "IntArray"
+  },
+  "Sitting": "Byte"
+}
